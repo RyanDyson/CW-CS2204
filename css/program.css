@@ -1,0 +1,71 @@
+.promotion{
+    width: 90%;
+    margin: 50px auto;
+}
+.promotion h3{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .1em;
+    text-align: center;
+}
+#promotion-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.promotion-media{
+    background-color: #4f172d;
+    border-radius: 20px;
+    padding: 20px;
+    height: 440px;
+}
+.promotion-media video{
+    display: inline-block;
+    width: 59%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #601f39;
+}
+.promotion-media p{
+    display: inline-block;
+    width: 29%;
+    color: white;
+    vertical-align: top;
+    margin-top: 150px;
+    padding-left: 20px;
+    padding-right: 120px;
+    font-size: 1.25em;
+    font-weight: block;
+}
+.information{
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.information thead{
+    height: 100px;
+    background-color: #601f39;
+    color: white;
+}
+.information th{
+    width: 30%;
+    border-radius: 5px;
+}
+.information td{
+    padding: 10px;
+    text-align: center;
+}
+.information .row-odd{
+    color: black;
+    background-color: #e7e7e7;
+    border: 1px solid black;
+    width: 40%;
+    height: 30px;
+    transition: background-color 0.1s linear;
+}
+.information tbody tr:hover{
+    color: white !important;
+    background-color:#aa5978 !important;
+}

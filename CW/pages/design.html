@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design hkiu</title>
+    <link rel="stylesheet" href="../default.css">
+    <link rel="stylesheet" href="../css/design.css">
+</head>
+<body>
+    <header class="header">
+        <a id="header-logo" href="../index.html"><img src="../image/logo.png" width="400" height="100" alt="This image is a logo of Hong Kong Industrial University" id="top"></a>
+        <h1 id="main-header">Hong Kong Industrial University</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html" ><span>Home</span></a></li>
+            <li><a href="./about.html" ><span>About</span></a></li>
+            <li><a href="./apply.html" ><span>Apply</span></a></li>
+            <li><a href="./visit.html" ><span>Visit</span></a></li>
+            <li><a href="./program.html" ><span>Program</span></a></li>
+            <li><a href="./contact.html" ><span>Contact</span></a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="desginer-information">
+            <h3>Name : Ryan Dyson Darmawan</h3>
+            <h3>SID : 57883349</h3>
+        </div>
+        <div>
+            <h3>Colors used</h3>
+            
+        </div>
+        <div class="first">
+            <h3>1. Use of positioning scheme</h3>
+            <ol>
+                <li>
+                    universal css - footer/header/navbar (default.css)
+                    <ul>
+                        <li>
+                            <span>line: 107 - position: fixed;</span> to anchor the back to the top button to the bottom of the page regardless of scrolling
+                        </li>
+                        <li>
+                            <span>line: 108, 134 - bottom: px;</span> to make sure the back to the top button is always a certain amount of pixels away from the bottom of the browser
+                        </li>
+                        <li>
+                            <span>line: 109, 135 - right: px;</span> to ensure the button is a certain amount of pixels from the right side of the browser
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    home page (./css/home.css)
+                    <ul>
+                        <li>
+                            <span>line: 9 - position: relative;</span> to ensure the welcome block is positioned relative to the body tag
+                        </li>
+                        <li>
+                            <span>line: 26, 45, 56, 60, 61</span> to properly space out the welcome text that is above the blurred picture
+                        </li>
+                        <li>
+                            <span>line: 57, 60, 64 - transform: translate()</span> to properly space out the text of welcome block
+                        </li>
+                        <li>
+                            <span>line: 124,144 - position: relative | absolute;</span> was given to container of the carousell cards to make sure the cards dont shift when the animation is playing
+                        </li>
+                        <li>
+                            <span>line: 182, 189 - position: absolute;</span> was given to the carousel cards when they are hovered over so that the cards do not shift when it get bigger when hovered.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    About page - (./css/about.css)
+                    <ul>
+                        <li>beside the page up button of which is just copy pasted from the default css, there are no significant use of position</li>
+                    </ul>
+                </li>
+                <li>
+                    Apply page - (./css/apply.css & ./ccs/applyPrint.css)
+                    <ul>
+                        <li>
+                            <span>line: 14 - position: relative</span> was so that the heading of the form does not move or change regardless if the majors application form are expanded or not
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Visit page - (./css/visit.css)
+                    <ul>
+                        <li>
+                            no meaningful positioning was used
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Program page - (./css/program.css)
+                    <ul>
+                        <li>
+                            no meaningful positioning was used
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Contact - (./css/contact.css)
+                    <ul>
+                        <li>
+                            no meaningful positioning was used
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <h3>2. CSS3 techniques</h3>
+            <ol>
+                <li>
+                    universal css - footer/header/navbar (default.css)
+                    <ul>
+                        <li>
+                            <span>line: 14-17 - background: gradient();</span> for the header background, a gradient was given through multiple lines of code for cross browser support (-moz for mozilla firefox, webkit for chrome and chromium based browsers)
+                        </li>
+                        <li>
+                            <span>line: 96-98 - background: gradient();</span> for the footing background, a gradient was given through multiple lines of code for cross browser support (-moz for mozilla firefox, webkit for chrome and chromium based browsers)
+                        </li>
+                        <li>
+                            <span>line: 55, 100 - border-radius: px;</span> was used to give rounded corners to squares and rectangle. 
+                        </li>
+                        <li>
+                            <span>line: 155 - border-radius: 100%;</span> was used to make the circle for the back to the top button.
+                        </li>
+                        <li>
+                            <span>line: 64 - transform: skew(-10deg);</span> was used to make the navigation buttons parallelograms.
+                        </li>
+                        <li>
+                            <span>line: 70 - transform: skew(10deg) !important;</span> was used so that the text inside of the navigation button is not skewed, rather still upright.
+                        </li>
+                        <li>
+                            <span>line: 80-82 - text-shadow: ; & box-shadow: ; </span> was used to give shadow when the navigation button is hovered over to give a slight 3d illusion of popping out. -webkit-box-shadow was also implemented for better multi browser support
+                        </li>
+                        <li>
+                            <span>line: 136-138 - text-shadow: ; & box-shadow: ; </span> the same effect from above was also used for the back to the top button
+                        </li>
+                        <li>
+                            <span>line: 76, 114, 128 - transition: ; </span> transition was used on the navigation buttons and back to the top button so that there is a smoother transition between state of objects.
+                        </li>
+                        <li>
+                            <span>line 6 - scroll-behavior: smooth;</span> to give a smooth scroll up when the back to the top button is clicked.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    home page (./css/home.css)
+                    <ul>
+                        <li>
+                            <span>line: 15 - background-image: url();</span> was used to give a background image to the welcome block.
+                        </li>
+                        <li>
+                            <span>line: 16 - filter: blur();</span> was used to give the welcome block background an appropriate amount of blur.
+                        </li>
+                        <li>
+                            <span>line: 17-19 - background-postion: ;,background-repeat: ;, background-size: ;</span> was implemented so that the blurred bg image of the welcome block is properly cropped and position
+                        </li>
+                        <li>
+                            <span>line: 21 - clip-path: inset():</span> was used to make sure the blurred background does go overflow into other divs and containers of the page
+                        </li>
+                        <li>
+                            <span>line: 29, 44, 57, 61, 65 - transform: translate();</span> was given so that the heading and paragraph of the welcome block are properly positioned in the right place;
+                        </li>
+                        <li>
+                            <span>line: 130, 167 - transition: ;</span> was given so that when hovered over, the blocks inside of the discipline carousel has a smooth transition.
+                        </li>
+                        <li>
+                            <span>line 129 - animation: ;</span> to enable the sliding animation of the infinite carousel. do not to implement a perfect infinite carousel, javascript would need to be involved.
+                        </li>
+                        <li>
+                            <span>line 135 - animation-play-state: paused;</span> to enable the pausing of the sliding carousel when the carousel is hovered over by the cursor.
+                        </li>
+                        <li>
+                            <span>line 192-199 - @keyframes slide{}</span> is written to enable the previous animation syntax to function. 
+                        </li>
+                        <li>
+                            <span>line 161 - transform: skew(-10deg);</span> like the navigation buttons, skew was used for the carousel majors
+                        </li>
+                        <li>
+                            <span>line 180,186 - transform: skew(10deg) !important;</span> simarly, this syntax was used to so that the text inside the majors carousell isnt skewed.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    About page - (./css/about.css)
+                    <ul>
+                        <li>
+                            <span>line: 138 - transition:0.1s;</span> was given so that when hovered over, the row of the table has a nice transition instead of instantly changing colors.
+                        </li>
+                        <li>
+                            <span>line: 134 - border-radius: 5px;</span> was given to give the table header row nice rounded corners
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Apply page - (./css/apply.css & ./ccs/applyPrint.css)
+                    <ul>
+                        <li>
+                            <span>line: 22-16 - background: gradient();</span> was given so that the heading of the application form has a nice gradient. similarly to before, multiple types of gradient is implemented so there cross browser support.
+                        </li>
+                        <li>
+                            <span>line: 17,26,38,88,104,148,164,208,225,313 - border-radius: px;</span> was given to style multiple elements a slight rounded corner for aesthethic reasonings.
+                        </li>
+                        <li>
+                            <span>line: 44-45, 51-52, 62-63, 68-69, 74-75, 81-82, 129-130, 141-142, 189-190, 201,202 - border-bottom-left-radius & border-bottom-right-radius</span> was given so that. the heading of the form, when hovered over, the bottom corners of the heading change slightly from rounded to not rounded. This is done for aesthethic reasons to sort of mimic the file explorer inside computers.
+                        </li>
+                        <li>
+                            <span>line: 39, 57, 92, 135, 152, 195, 212, 277, 285, 315< - transition: 0.1s;</span> was used to give smooth transition between object states like hovered, active, etc.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Visit page - (./css/visit.css)
+                    <ul>
+                        <li>
+                            <span>line: 22 - transition: 0.1s;</span> was used to give smooth transition between object states
+                        </li>
+                        <li>
+                            <span>line: 21,39,49,79,84,92 - border-radius:;</span> was given to style multiple elements a slight rounded corner for aesthethic reasonings.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Program page - (./css/program.css)
+                    <ul>
+                        <li>
+                            <span>line: 65 - transition: 0.1s;</span> was used to give smooth transition when the row of the table is hovered over.
+                        </li>
+                        <li>
+                            <span>line: 19,26,42,53 - border-radius:;</span> was given to style multiple elements a slight rounded corner for aesthethic reasonings.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Contact - (./css/contact.css)
+                    <ul>
+                        <li>
+                            <span>line: 24 - transition: 0.1s;</span> was used to give smooth transition when the row of the table is hovered over.
+                        </li>
+                        <li>
+                            <span>line: 20 - border-radius:;</span> was given to style multiple elements a slight rounded corner for aesthethic reasonings.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <h3>3. how styles are grouped into style sheet(s)/embedded style</h3>
+            <ul>
+                <li>Each page uses external css and at least has 2 css styles linked back to it. The <span>default.css</span> is located in root folder and applies the styling for the heading, navigation, footer, and back to the top to all pages except the about page. other css files is named after their html file. for example <span>about.css</span> corresponds to the about page</li>
+                <li>Each page uses 2 links to external css files. One links to the <span>default.css</span> and the other <span>[page name].css</span></li>
+                <li>There is a div/container for each major part of the pages. For example the welcome block of the home page is seperated into their own div</li>
+                <li>Each div is given a class or an id and is styled accordingly</li>
+            </ul>
+        </div>
+        <div>
+            <h3>4. sources</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3SChools</a></li>
+                <li><a href="https://htmlcheatsheet.com/css/">htmlcheatsheet.com</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fYGe-SuFAHU&t">youtube tutorial for back to the top button</a></li>
+                <li><a href="https://www.youtube.com/watch?v=nAjR0Oj0J8E">youtube tutorial on how to use animate in a css carousel</a></li>
+                <li><a href="https://unsplash.com/">stock image used for the background of the home page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="page-up">
+        <a href="#">Back to the top</a>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="This image is a logo of Hong Kong Industrial University">
+        <p>@CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by Icon s8 – designed by <a href="./design.html">Ryan Dyson Darmawan</a></p>
+    </footer>
+</body>
+</html>

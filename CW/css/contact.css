@@ -1,0 +1,32 @@
+.information{
+    width: 90%;
+    height: 340px;
+    margin: 50px auto;
+}
+.information h3{
+    padding: 20px;
+    text-align: center;
+    color:#2d111c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.information th{
+    width: 25%;
+    background-color:#601f39;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+}
+.information tr{
+    background-color:  #e7e7e7;
+    transition: 0.1s;
+}
+.information td {
+    padding: 20px;
+}
+.information tr:hover{
+    color: white !important;
+    background-color:#aa5978 !important;
+}

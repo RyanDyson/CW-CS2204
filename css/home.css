@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.welcome-background{
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/why-bg.jpg);
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    clip-path: inset(0 0 0 0);
+}
+
+.welcome-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+.welcome-text #welcome-heading{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    width:500px;
+    text-shadow: 0px 0px 17px black;
+}
+.welcome-text #welcome-paragraph {
+    display: inline-block;
+    width: 500px;
+    transform: translate(250px,0);
+    position: absolute;
+}
+.welcome-text #welcome-paragraph p{
+    display: block;
+    float: right;
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px black;
+}
+.welcome-text #welcome-p1{
+    position: absolute;
+    transform: translate(0,-70px);
+}
+.welcome-text #welcome-p2{
+    position: absolute;
+    transform: translate(0,100px);
+}
+.welcome-text #welcome-p3{
+    position: absolute;
+    transform: translate(0px,220px);
+}
+.information {
+    width: 90%;
+    height: 950px;
+    display: inline-block;
+    margin: 50px 5%;
+}
+.information .whyHKIU {
+    width: 49.5%;
+    display: inline-block;
+    padding: 50px;
+    vertical-align: top;
+    border: 3px solid #732241;
+    border-radius: 10px;
+}
+.information .whyHKIU h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    letter-spacing: .1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+}
+.information .whyHKIU ol{
+    margin-bottom: 20px;
+}
+.information .whyHKIU li{
+    margin-bottom: 20px;
+}
+.information .whyHKIU span{
+    color:#732241;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+}
+.information .address{
+    width: 49%;
+    display: inline-block;
+    padding: 5% 5% 5% 2.5%;
+    vertical-align: top;
+    background-color: #732241;
+    color: white;
+    border: 3px solid #732241;
+    border-radius: 10px;
+}
+.information .address img{
+    max-width: 100%; 
+}
+.information .address h3{
+    padding-left: 10px;
+    color:#ffffff;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+}
+.slide{
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.welcome-colleges{
+    display: block;
+    width: 100%;
+    animation: 25s slide infinite linear;
+    transition: 0.5s;
+    height: 150px;
+    margin: 25px;
+}
+.welcome-colleges:hover{
+    animation-play-state: paused;
+}
+.welcome-colleges ul{
+    width: 100%;
+    display:inline-block;
+    height: 125px;
+    vertical-align: bottom;
+}
+#copy{
+    position: absolute;
+    left: 193%;
+}
+#welcome-colleges-header{
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+    margin-top: 50px;
+}
+.welcome-colleges ul li{
+    width: 19%;
+    height: 125px;
+    background-color: #732241;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.25em;
+    transform: skew(-10deg);
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+    vertical-align: middle;
+}
+.welcome-colleges ul li:hover{
+    background-color: #aa5978;
+    width: 20%;
+    height: 130px;
+    text-shadow: 0px 0px 17px black;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.43); 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.43);
+    z-index: 3;
+}
+.welcome-colleges .oneline{
+    transform: skew(10deg) !important;
+    line-height: 150px;
+    position: absolute;
+    text-align: center;
+}
+.welcome-colleges .twoline{
+    transform: skew(10deg) !important;
+    line-height: 30px;
+    margin: 20px 0 20px 0;
+    position: absolute;
+    white-space:initial;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-200%);
+    }
+}
+#apply-button {
+    width: 400px;
+    height: 100%;
+    margin: 20px auto;
+    border-radius: 30px;
+}

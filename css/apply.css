@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+}
+
+.welcome h2{
+    padding: 20px;
+    text-align: center;
+    color:#2d111c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.application-form-heading{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background-color:#ffdbe9;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.application-form-heading h3{
+    padding: 20px;
+    text-align: center;
+    background: #ED7FAA;
+    background: -moz-linear-gradient(top, #ED7FAA 0%, #EDE6E6 100%);
+    background: -webkit-linear-gradient(top, #ED7FAA 0%, #EDE6E6 100%);
+    background: linear-gradient(to bottom, #ED7FAA 0%, #EDE6E6 100%);
+    border-radius: 10px;
+}
+.application-form-heading a{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:#732241;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #2d111c;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.application-form-engineering{
+    display: none;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #732241;
+    transition: 0.1s;
+}
+.application-form-engineering form{
+    display: inline-block;
+    border : 1px solid #732241;
+    border-radius: 5px;
+    width: 30%;
+    height: calc(99%/2);
+    background-color: white;
+    transition: 0.1s;
+}
+.application-form-engineering form:hover{
+    display: inline-block;
+    background-color:#e7e7e7;
+    width: 30%;
+    height: calc(99%/2);
+}
+.application-form-engineering form img{
+    display: inline-block;
+    width: 49%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.application-form-engineering form label{
+    display: inline-block;
+    padding-top: 20%;
+    color:#2d111c;
+    font-weight: bold;
+    width: 41%;
+    height: 100px;
+    vertical-align: top;
+}
+.application-form-engineering form input{
+    display: inline-block;
+    color:#2d111c;
+    font-weight: bold;
+    width: 45%;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: top;
+    margin: 0 0 10px 10px;
+}
+
+.application-form-science{
+    display: none;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #732241;
+    transition: 0.1s;
+}
+
+.application-form-science form{
+    display: inline-block;
+    border : 1px solid #732241;
+    border-radius: 5px;
+    width: 30%;
+    height: 99%;
+    background-color: white;
+    transition: 0.1s;
+}
+.application-form-science form:hover{
+    display: inline-block;
+    background-color:#e7e7e7;
+    width: 30%;
+    height: 99%;
+}
+.application-form-science form img{
+    display: inline-block;
+    width: 49%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.application-form-science form label{
+    display: inline-block;
+    padding-top: 20%;
+    color:#2d111c;
+    font-weight: bold;
+    width: 41%;
+    height: 100px;
+    vertical-align: top;
+}
+.application-form-science form input{
+    display: inline-block;
+    color:#2d111c;
+    font-weight: bold;
+    width: 45%;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: top;
+    margin: 0 0 10px 10px;
+}
+
+.application-form-interdisiplinary{
+    display: none;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #732241;
+    transition: 0.1s;
+}
+.application-form-interdisiplinary form{
+    display: inline-block;
+    border : 1px solid #732241;
+    border-radius: 5px;
+    width: 30%;
+    height: 99%;
+    background-color: white;
+    transition: 0.1s;
+}
+.application-form-interdisiplinary form:hover{
+    display: inline-block;
+    background-color:#e7e7e7;
+    width: 30%;
+    height: 99%;
+}
+
+.application-form-interdisiplinary form img{
+    display: inline-block;
+    width: 49%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.application-form-interdisiplinary form label{
+    display: inline-block;
+    padding-top: 20%;
+    color:#2d111c;
+    font-weight: bold;
+    width: 41%;
+    height: 100px;
+    vertical-align: top;
+}
+.application-form-interdisiplinary form input{
+    display: inline-block;
+    color:#2d111c;
+    font-weight: bold;
+    width: 45%;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: top;
+    margin: 0 0 10px 10px;
+}
+.chosen-majors{
+    width: 100%;
+}
+.chosen-majors #chosen-majors-heading{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+}
+.chosen-majors #chosen-majors-time{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.chosen-majors #chosen-majors-table{
+    margin: 0 auto;
+    width: 90%;
+}
+.chosen-majors #chosen-majors-table th{
+    color: white;
+    background-color: #732241;
+    border: 1px solid black;
+    width: 40%;
+    height: 40px;
+}
+.chosen-majors #chosen-majors-table .table-odd{
+    color: black;
+    background-color: #e7e7e7;
+    border: 1px solid black;
+    width: 40%;
+    height: 30px;
+    transition: background-color 0.1s linear;
+}
+.chosen-majors #chosen-majors-table .table-even{
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 40%;
+    height: 30px;
+    transition: background-color 0.1s linear;
+}
+.chosen-majors #chosen-majors-table tr:hover{
+    color: white !important;
+    background-color:#aa5978;
+}
+.chosen-majors #chosen-majors-table td{
+    padding-left: 10px;
+    border:#2d111c 1px solid;
+}
+.chosen-majors #chosen-majors-footer{
+    text-align: center;
+    padding: 10px;
+}
+.chosen-majors #chosen-majors-button{
+    padding-left: 78px;
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.chosen-majors a{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #732241;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    transition: 0.1s;
+}
+.chosen-majors a:hover{
+    background-color: #aa5978;
+}
+.chosen-majors a:active{
+    background-color: #2d111c;
+}
+.chosen-majors #alert{
+    text-align: center;
+    margin-bottom: 100px;
+}
+

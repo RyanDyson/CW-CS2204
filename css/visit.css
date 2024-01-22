@@ -1,0 +1,112 @@
+.welcome {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.welcome h3{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .1em;
+}
+.welcome p {
+    padding: 5px;
+}
+.location {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #4f172d;
+    border-radius: 20px;
+    transition: 0.1s; 
+}
+.location:hover {
+    background: #601f39;
+}
+.location h3{
+    text-align: center;
+    padding: 30px 10px 0 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+.location .location-map{
+    display: inline-block;
+    width: 60%;
+    margin: 20px 5px 20px 20px;
+    height: 80%;
+    border-radius: 10px;
+}
+.location .location-info{
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+    vertical-align: top;
+}
+.location-info dt{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.location-info dd{
+    padding-left: 20px;
+}
+.location-info dd a{
+    text-decoration: none;
+    color:#732241;
+}
+.reservation{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.reservation fieldset legend{
+    text-align: center;
+    color:#4f172d;
+    background-color: white;
+    width: 20%;
+    line-height: 150%;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.reservation fieldset{
+    background-color:#4f172d;
+    border: none;
+    border-radius: 10px;
+}
+legend + label{
+    margin-top: 20px;
+}
+.reservation input, .reservation select{
+    display: inline-block;
+    width: 20%;
+    border-radius: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+#form-buttons{
+    width: 80%;
+    margin: 20px;
+    margin-left: 21.7%;
+}
+.reservation label{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+.reservation #alert{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application HKIU</title>    
+    <link rel="stylesheet" href="../default.css" media="all">
+    <link rel="stylesheet" href="../css/apply.css" media="all">
+    <link rel="stylesheet" href="../css/applyPrint.css" media="print">
+</head>
+<body>
+    <header class="header">
+        <a id="header-logo" href="../index.html"><img src="../image/logo.png" width="400" height="100" alt="This image is a logo of Hong Kong Industrial University" id="top"></a>
+        <h1 id="main-header">Hong Kong Industrial University</h1>
+    </header>
+    <nav id="print">
+        <ul>
+            <li><a href="../index.html" ><span>Home</span></a></li>
+            <li><a href="./about.html" ><span>About</span></a></li>
+            <li><a href="./apply.html" ><span>Apply</span></a></li>
+            <li><a href="./visit.html" ><span>Visit</span></a></li>
+            <li><a href="./program.html" ><span>Program</span></a></li>
+            <li><a href="./contact.html" ><span>Contact</span></a></li>
+        </ul>
+    </nav>
+    <div class="welcome print ">
+        <h2>Welcome to HKIU</h2>
+    </div>
+    <div class="application-form-heading print">
+        <h3>Common Application to Undergraduate Program</h3>
+        <a href="#engineering" class="application-heading-colleng bttn-heading">College of Engineering</a>
+        <a href="#science" class="application-heading-colsci bttn-heading" >College of Science</a>
+        <a href="#interdisciplinary"  class="application-heading-collin bttn-heading" >College of Interdisciplinary Studies</a>
+        <div class="application-form-engineering form">
+            <form method="get" action="#" id="application-form-compsci" class="application-form-engineering">
+                <img src="../image/cs.png" width="200" height="200" alt="This is a picture of the major BSc in Computer Science and Technology BSc in Computer Science and Technology ">
+                <label for="compsci">BSc in Computer Science and Technology</label>
+                <input type="number" id="compsci" name="compsci">
+                <input type="button" id="compsci-but" name="compsci-but" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-elecinfo" class="application-form-engineering">
+                <img src="../image/ei.png" width="200" height="200" alt="This is a picture of the major BEng in Electronic Information BEng in Electronic Information">
+                <label for="Elecinfo">BEng in Electronic Information</label>
+                <input type="number" id="Elecinfo" name="elecinfo">
+                <input type="button" id="elecinfo-but" name="elecinfo-but" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-matsci" class="application-form-engineering">
+                <img src="../image/mse.png" width="200" height="200" alt="This is a picture of the major BEng in Materials Science and Engineering BEng in Materials Science and Engineering">
+                <label for="matsci">BEng in Materials Science and Engineering</label>
+                <input type="number" id="matsci" name="matsci">
+                <input type="button" id="matsci-but" name="matsci-but" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-matchem" class="application-form-engineering">
+                <img src="../image/mc.png" width="200" height="200" alt="This is a picture of the major BEng in Materials and Chemicals BEng in Materials and Chemicals">
+                <label for="matchem">BEng in Materials and Chemicals</label>
+                <input type="number" id="matchem" name="matchem">
+                <input type="button" id="matchem-but" name="matchem-but" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-est" class="application-form-engineering">
+                <img src="../image/est.png" width="200" height="200" alt="This is a picture of the major BSc in Electronic Science and Technology BSc in Electronic Science and Technology ">
+                <label for="est">BSc in Electronic Science and Technology</label>
+                <input type="number" id="est" name="est">
+                <input type="button" id="est-but" name="est-but" value="rank of choice"> <br>
+            </form>
+        </div>
+        <div class="application-form-science form">
+            <form method="get" action="#" id="application-form-phy" class="application-form-science">
+                <img src="../image/phy.png" width="200" height="200" alt="This is a picture of the major BSc in Physics BSc in Physics">
+                <label for="phy">BSc in Physics</label>
+                <input type="number" id="phy" name="phy">
+                <input type="button" id="phy-but" name="phy" value="rank of choice" > <br>
+            </form>
+            <form method="get" action="#" id="application-form-chem" class="application-form-science">
+                <img src="../image/chem.png" width="200" height="200" alt="This is a picture of the major BSc in Physics BSc in Chemistry">
+                <label for="chem">BSc in Chemistry</label>
+                <input type="number" id="chem" name="chem">
+                <input type="button" id="chem-but" name="chem" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-bio" class="application-form-science">
+                <img src="../image/bio.png" width="200" height="200" alt="This is a picture of the major BSc in Biology BSc in Biology">
+                <label for="bio">BSc in Biology</label>
+                <input type="number" id="bio" name="bio">
+                <input type="button" id="bio-but" name="bio" value="rank of choice"> <br>
+            </form>
+        </div>
+        <div class="application-form-interdisiplinary form">
+            <form method="get" action="#" id="application-form-cogs" class="application-form-interdisiplinary">
+                <img src="../image/cogs.png" width="200" height="200" alt="This is a picture of the major BSc in Cognitive Science BSc in Cognitive Science">
+                <label for="cogs.png">BSc in Cognitive Science</label>
+                <input type="number" id="cogs.png" name="cogs.png">
+                <input type="button" id="cogs.png-but" name="cogs.png" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-be" class="application-form-interdisiplinary">
+                <img src="../image/be.png" width="200" height="200" alt="This is a picture of the major BEng in Biomedical Engineering BEng in Biomedical Engineering ">
+                <label for="be">BEng in Biomedical Engineering</label>
+                <input type="number" id="be" name="be">
+                <input type="button" id="be-but" name="bm\e-but" value="rank of choice"> <br>
+            </form>
+            <form method="get" action="#" id="application-form-bm" class="application-form-interdisiplinary">
+                <img src="../image/bm.png" width="200" height="200" alt="This is a picture of the major BSc in Biology and Medicine BSc in Biology and Medicine ">
+                <label for="bm">BSc in Biology and Medicine</label>
+                <input type="number" id="bm" name="bm">
+                <input type="button" id="bm-but" name="bm-but" value="rank of choice"> <br>
+            </form>
+        </div>
+    </div>
+    <div class="chosen-majors" id="table">
+        <h3 id="chosen-majors-heading">Your chosen majors:</h3>
+        <p id="chosen-majors-time">7 Jul 2023 22:22</p>
+        <table id="chosen-majors-table">
+            <thead>
+                <tr>
+                    <th>College</th>
+                    <th>Major</th>
+                    <th>Rank</th>
+                </tr>
+            </thead>
+            <tbody id="data_to_be_filled">
+                <tr class="table-odd">
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="table-even">
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="table-odd">
+                    <td></td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-even">
+                    <td></td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="table-odd">
+                    <td></td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="table-even">
+                    <td></td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="table-odd">
+                    <td></td>
+                    <td></td>
+                    <td>7</td>
+                </tr>
+                <tr class="table-even">
+                    <td></td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="table-odd">
+                    <td></td>
+                    <td></td>
+                    <td>9</td>
+                </tr>
+                <tr class="table-even">
+                    <td></td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="chosen-majors-footer">Total Number of majors applied : 0</h3>
+        <div id="chosen-majors-button">
+            <a id="table-submit">Submit</a>
+            <a id="table-reset" onclick="reset_clicked();">Reset</a>
+        </div>
+        <p id="alert"></p>
+    </div>
+    <div class="print" id="page-up">
+        <a href="#">Back to the top</a>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="This image is a logo of Hong Kong Industrial University">
+        <p>@CityU 2023 – sources of images and number from Wikipedia and Courtesy of Icon pack by Icon s8 – designed by <a href="./design.html">Ryan Dyson Darmawan</a></p>
+    </footer>
+    <script src="../scripts/apply.js"></script>
+</body>
+</html>
